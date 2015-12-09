@@ -42,6 +42,7 @@ All external connectors aligned on the same edge:
 * Teensy USB programming port
 * MIDI
 * Audio
+* Power supply jack
 
 Other connections for additional hardware for user-interface are available as 0.1" header pads on one of the other edges.
 
