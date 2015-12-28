@@ -16,6 +16,7 @@ Target price would be ~$100 for the Teensy 3.2 and this board...possibly includi
 
 1. Mezzanine location for a Teensy 3.2, with all of the extra underside & off-grid pads broken out.
 	2. See FrankB's "connectorboard" from OSHPark for one concept using castellated vias. 
+1. Drum machine sequencer and voice controls. 
 2. MIDI in-out (thru?) circuitry with 5-pin DIN connectors
 3. Audio DAC (or Codec)
 	1. 2 outputs minimum,
@@ -30,9 +31,9 @@ Target price would be ~$100 for the Teensy 3.2 and this board...possibly includi
 
 ## Form Factor
 
-Large enough to allow the controls and alyout described below.  Initial guess is ~4" x 6".
+Large enough to allow the controls and layout described below.  Initial guess is ~4" x 6".
 
-Preferably in a form that allows the controls to meet a panel at a single elevation.
+Preferably in a form that allows all the controls to meet a panel at a single elevation.
 
 This might be a 2-sided layout - the pots and buttons on one side, with connectors and SMT
 components on the reverse.
@@ -50,6 +51,7 @@ Initial intent is to look something like a classic TR-family drum machine.
 * Master controls on the right-hand side of the panel
 	* play/stop button (w/ LED)
 	* Tempo
+	* Volume
 	* mode switches (w/ LEDs as needed)
 	
 ### Connector layout 
@@ -105,7 +107,7 @@ This is with non-optimized modules for much of the processing.
 
 ### Modes
 
-(There are 8 proposed buttons outside of the 16 pattern buttons -- what do they do?)
+There are 8 proposed buttons outside of the 16 pattern buttons -- what do they do?
 
 * sequence start/stop
 * pattern-edit - the 16 enter notes into the active sequence.
