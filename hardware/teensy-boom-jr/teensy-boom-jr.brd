@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -47,7 +47,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -156,10 +156,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="20"/>
-<wire x1="101.6" y1="0" x2="101.6" y2="44.45" width="0" layer="20"/>
-<wire x1="101.6" y1="44.45" x2="0" y2="44.45" width="0" layer="20"/>
-<wire x1="0" y1="44.45" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="20"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="44.45" width="0.2032" layer="20"/>
+<wire x1="101.6" y1="44.45" x2="0" y2="44.45" width="0.2032" layer="20"/>
+<wire x1="0" y1="44.45" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="6.35" y="6.35" size="3.81" layer="21" font="vector" ratio="15" align="top-center">1</text>
 <text x="19.05" y="6.35" size="3.81" layer="21" font="vector" ratio="15" align="top-center">2</text>
 <text x="31.75" y="6.35" size="3.81" layer="21" font="vector" ratio="15" align="top-center">3</text>
@@ -185,6 +185,8 @@
 <text x="99.06" y="33.02" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">CLK</text>
 <text x="99.06" y="35.56" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">LED</text>
 <text x="99.06" y="38.1" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">BTN</text>
+<text x="7.62" y="1.27" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V01</text>
+<text x="49.53" y="-7.62" size="1.778" layer="51" font="vector">Byron Jacquot</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -196,9 +198,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="DUMMY">
-<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
-</package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="21">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
@@ -235,6 +234,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
+</package>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -679,10 +686,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-19.05" y="-10.16">
-<attribute name="DESIGNER" value="Nobody" x="-19.05" y="-10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VERSION" value="v01" x="-19.05" y="-10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
 <element name="U3" library="teensy-synth" package="SO16" value="74hc595" x="31.75" y="36.83" rot="R270"/>
 <element name="D8" library="SparkFun-LED" package="LED3MM-NS" value="red" x="6.35" y="24.13" rot="R90"/>
 <element name="D7" library="SparkFun-LED" package="LED3MM-NS" value="red" x="19.05" y="24.13" rot="R90"/>
@@ -719,7 +722,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="38.1" y="36.83" rot="R90">
 <attribute name="PROD_ID" value="CAP-08604" x="38.1" y="36.83" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="1X07_NO_SILK" value="" x="100.33" y="22.86" rot="R90"/>
+<element name="J3" library="SparkFun-Connectors" package="1X07_NO_SILK" value="To Chain" x="100.33" y="22.86" rot="R90"/>
 <element name="U2" library="teensy-synth" package="SO16" value="74hc165" x="69.85" y="36.83" rot="R270"/>
 <element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="76.2" y="36.83" rot="R90">
 <attribute name="PROD_ID" value="CAP-08604" x="25.4" y="1.27" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -759,14 +762,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U1" library="teensy-synth" package="SOT23-5" value="74AHC1G126" x="12.446" y="36.576" rot="R90">
 <attribute name="VALUE" value="74AHC1G126" x="12.446" y="36.576" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="1X07_NO_SILK" value="" x="1.27" y="22.86" rot="R90"/>
-<element name="J1" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="13.716" y="40.386" rot="R180"/>
+<element name="J2" library="SparkFun-Connectors" package="1X07_NO_SILK" value="To MCU" x="1.27" y="22.86" rot="R90"/>
+<element name="J1" library="SparkFun-Connectors" package="1X02_NO_SILK" value="bypass buffer" x="13.716" y="40.386" rot="R180"/>
 <element name="H1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="6.35" y="40.64"/>
 <element name="H2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="12.7" y="3.81"/>
 <element name="H3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="88.9" y="3.81"/>
 <element name="H4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="95.25" y="40.64"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="51.054" y="34.036"/>
 <element name="H5" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="50.8" y="3.81"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="19.05" y="-7.62"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="2.54" y="3.81"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="87.63" y="43.18"/>
 </elements>
 <signals>
 <signal name="GND">
