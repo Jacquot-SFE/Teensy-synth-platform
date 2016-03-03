@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="297.40625" height="217.1875" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="delay.svg">
+  <defs id="defs4">
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend" style="overflow:visible">
+      <path id="path4543" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.4,0,0,-0.4,-4,0)" inkscape:connector-curvature="0" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="Arrow1Lend" style="overflow:visible">
+      <path id="path4537" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.8,0,0,-0.8,-10,0)" inkscape:connector-curvature="0" />
+    </marker>
+    <marker inkscape:stockid="Arrow2Lend" orient="auto" refY="0" refX="0" id="Arrow2Lend" style="overflow:visible">
+      <path id="path4555" style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" inkscape:connector-curvature="0" />
+    </marker>
+    <marker inkscape:stockid="Arrow2Lend" orient="auto" refY="0" refX="0" id="Arrow2Lend-4" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4555-9" style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-7" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4543-2" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-0" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4543-1" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-75" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4543-4" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-3" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4543-3" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-9" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4543-9" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-1" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4543-8" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-6" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4543-6" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow2Lend" orient="auto" refY="0" refX="0" id="Arrow2Lend-4-3" style="overflow:visible">
+      <path inkscape:connector-curvature="0" id="path4555-9-8" style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="2.56" inkscape:cx="126.97437" inkscape:cy="54.744871" inkscape:document-units="in" inkscape:current-layer="layer1" showgrid="false" fit-margin-top="25" fit-margin-left="25" fit-margin-right="25" fit-margin-bottom="25" inkscape:window-width="1920" inkscape:window-height="1018" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" />
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-301.84375,-115.03125)">
+    <flowRoot xml:space="preserve" id="flowRoot3885-7" style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro" transform="translate(184.13188,191.43355)"><flowRegion id="flowRegion3887-6"><rect id="rect3889-1" width="81.428574" height="53.57143" x="312.5" y="280.21933" style="font-size:20px" /></flowRegion><flowPara id="flowPara3891-4" /><flowPara id="flowPara3920" /></flowRoot>    <text xml:space="preserve" style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro" x="390.35715" y="386.29074" id="text3935" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3937" x="390.35715" y="386.29074"></tspan></text>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.98000026;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" id="rect2985-8-0" width="245.44524" height="165.2083" x="327.81848" y="141.0345" rx="0" ry="0" />
+    <flowRoot xml:space="preserve" id="flowRoot4172-5" style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro" transform="translate(223.68066,261.14637)"><flowRegion id="flowRegion4174-0"><rect id="rect4176-9" width="211.8558" height="52.204372" x="117.11456" y="-109.84711" style="stroke:#000000;stroke-opacity:1" /></flowRegion><flowPara id="flowPara4178-0" style="font-size:20px">Delay Line</flowPara></flowRoot>    <flowRoot xml:space="preserve" id="flowRoot5094" style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro" transform="translate(231.49315,107.20573)"><flowRegion id="flowRegion5096"><rect id="rect5098" width="375.09805" height="183.95825" x="7.7339807" y="193.56485" /></flowRegion><flowPara id="flowPara5100"></flowPara></flowRoot>    <rect style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" id="rect5106" width="169.16641" height="40.327183" x="358.75931" y="212.60826" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.99000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-4)" d="M 197.26563,50.782043 197.26563,94.922668" id="path5805" inkscape:connector-curvature="0" transform="translate(302.60973,116.607)" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.99000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-4)" d="M 450.63917,252.72136 450.63917,296.86198" id="path5805-0" inkscape:connector-curvature="0" />
+    <flowRoot xml:space="preserve" id="flowRoot4172-5-1" style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro" transform="matrix(0.39912881,0,0,0.37964263,334.75197,267.62386)"><flowRegion id="flowRegion4174-0-2" style="stroke-width:2.56895185"><rect id="rect4176-9-5" width="333.21387" height="57.349014" x="117.11456" y="-109.84711" style="stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" /></flowRegion><flowPara id="flowPara4178-0-0" style="stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none">Circular RAM Buffer</flowPara></flowRoot>  </g>
+</svg>
